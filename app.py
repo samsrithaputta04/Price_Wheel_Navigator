@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle as pk
 import streamlit as st
+import sklearn
 model=pk.load(open('model.pkl','rb'))
 
 st.header('Price Wheel Navigator - myMLmodel')
